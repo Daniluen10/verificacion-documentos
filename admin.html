@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Generar Certificado</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Generar certificado</h1>
+
+Código: <input id="codigo"><br>
+Emisor: <input id="emisor" value="Daniel Luengo Cole"><br>
+Fecha: <input type="date" id="fecha"><br>
+<button onclick="generarCertificado()">Generar PDF</button>
+
+<p id="mensaje"></p>
+
+<script src="admin.js"></script>
+</body>
+</html>
